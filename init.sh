@@ -1,5 +1,2 @@
-sudo mkdir public
-sudo mkdir public/img
-sudo mkdir public/css
-sudo mkdir public/js
-sudo mkdir uploads
+sudo ﻿ln -s /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
+sudo /etc/init.d/nginx restart
