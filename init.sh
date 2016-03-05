@@ -1,5 +1,5 @@
-mkdir web/public
-mkdir web/public/img
-mkdir web/public/css
-mkdir web/public/js
-mkdir web/uploads
+sudo mkdir public
+sudo mkdir public/img
+sudo mkdir public/css
+sudo mkdir public/js
+sudo mkdir uploads
