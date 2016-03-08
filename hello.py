@@ -3,7 +3,7 @@ status = '200 OK'
 headers = [
 ('Content-Type', 'text/plain')
 ]
-S = QUERY_STRING
+S = environ['QUERY_STRING']
 n = S.rfind('?') + 1	
 body = S[n:len(S)]
 body = body.replace('&', '\n')
