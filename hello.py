@@ -5,5 +5,5 @@ def appl(environ, start_response):
 	n = S.rfind('?') + 1	
 	body = S[n:len(S)]
 	body = body.replace('&', '\n')
-	start_response(status, headers )
-    return [ body ]
+	start_response(status, headers)
+	return [ body ]
