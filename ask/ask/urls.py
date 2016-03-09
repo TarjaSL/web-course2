@@ -1,5 +1,6 @@
 from django.conf.urls import include, url
 from django.contrib import admin
+from ask.views import test
 
 urlpatterns = [
     # Examples:
@@ -12,5 +13,5 @@ urlpatterns = [
     url(r'^ask/', 'ask.views.test', name='ask'),
     url(r'^popular/', 'ask.views.test', name='popular'),
     url(r'^new/', 'ask.views.test', name='new'),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include('admin.site.urls')),
 ]
