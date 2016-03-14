@@ -60,6 +60,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'qaproject',
+		'USER': 'Tarja',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '',
 	}
 	}
 
